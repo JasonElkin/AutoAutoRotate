@@ -1,5 +1,5 @@
 # AutoAutoRotate
-## Dead simple image auto-rotation for Umbraco v8+
+### Dead simple image auto-rotation for Umbraco v8+
 
 Many images, especially those produced by mobile devices, are landscape in terms of actual pixel data but have their orientation set by EXIF data. Generally speaking this is a good thing, but the default configuration for ImageProcessor in Umbraco is to strip out the EXIF data and ignore it before resizing. 
 
@@ -11,7 +11,7 @@ All this package does is intercept requests to ImageProcessor and add `autorotat
 
 If the parameter already appears in the querystring, either true or false, then it will not override it.
 
-## Config ##
+## Config
 
 `preserveExifMetaData` must be set to `false` and the AutoRotate plugin must be enabled in `/config/imageprocessor/processing.config`. These are the defaults so it should work OOTB.
 
