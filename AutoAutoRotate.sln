@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAutoRotate.Web", "AutoAutoRotate.Web\AutoAutoRotate.Web.csproj", "{CD1AAF62-591C-4888-BD19-2439EBD56364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAutoRotate", "AutoAutoRotate\AutoAutoRotate.csproj", "{680B111F-BEC6-466B-809C-E6012A32FDC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD1AAF62-591C-4888-BD19-2439EBD56364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1AAF62-591C-4888-BD19-2439EBD56364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1AAF62-591C-4888-BD19-2439EBD56364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1AAF62-591C-4888-BD19-2439EBD56364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680B111F-BEC6-466B-809C-E6012A32FDC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680B111F-BEC6-466B-809C-E6012A32FDC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680B111F-BEC6-466B-809C-E6012A32FDC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680B111F-BEC6-466B-809C-E6012A32FDC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDEF9860-4992-4EDF-BC23-E06FF8D4D260}
+	EndGlobalSection
+EndGlobal
