@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>Our.Umbraco.AutoAutoRotate</id>
+		<version>1.0.0</version>
+		<title>Auto Auto Rotate</title>
+		<authors>Jason Elkin</authors>
+		<owners>Jason Elkin</owners>
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/JasonElkin/AutoAutoRotate</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/JasonElkin/AutoAutoRotate/main/images/logo.png</iconUrl>
+		<icon>images\logo.png</icon>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+			Simple image auto-rotation for Umbraco v8.x Automatically runs ImageProcessor's AutoRotate, for fire-and-forget mobile image uploads.
+		</description>
+		<releaseNotes>
+			- First Release
+		</releaseNotes>
+		<copyright>Copyright 2020</copyright>
+		<tags>Umbraco ImageProcessor AutoRotate Auto Rotate</tags>
+	</metadata>
+	<files>
+		<file src="..\images\logo.png" target="images\" />
+	</files>
+</package>
