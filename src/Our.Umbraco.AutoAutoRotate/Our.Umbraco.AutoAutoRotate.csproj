@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RepositoryUrl>https://github.com/JasonElkin/AutoAutoRotate</RepositoryUrl>
+    <Authors>Jason Elkin</Authors>
+    <Company />
+    <Product>AutoAutoRotate</Product>
+    <Description>Enables AutoRotate by default for all images in an Umbraco site.</Description>
+    <Copyright>Jason Elkin 2020 - 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>logo.png</PackageIcon>
+    <RepositoryType>Git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\docs\images\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImageProcessor.Web" Version="4.10.0.100" />
+    <PackageReference Include="UmbracoCms.Core" Version="8.1.0" />
+  </ItemGroup>
+
+</Project>

@@ -372,5 +372,3 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
-
-/AutoAutoRotate.Web/Media/created-packages
