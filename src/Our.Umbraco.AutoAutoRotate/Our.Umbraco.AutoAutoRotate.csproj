@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RepositoryUrl>https://github.com/JasonElkin/AutoAutoRotate</RepositoryUrl>
+    <Authors>Jason Elkin</Authors>
+    <Company />
+    <Product>AutoAutoRotate</Product>
+    <Description>Simple image auto-rotation for Umbraco v8.x Automatically runs ImageProcessor's AutoRotate, for fire-and-forget mobile image uploads.</Description>
+    <Copyright>© Jason Elkin 2020 - 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>logo.png</PackageIcon>
+    <RepositoryType>Git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>- Only apply autorotate when images are being further processed</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/JasonElkin/AutoAutoRotate</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\docs\images\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImageProcessor.Web" Version="4.10.0.100" />
+    <PackageReference Include="UmbracoCms.Core" Version="8.1.0" />
+  </ItemGroup>
+
+</Project>
